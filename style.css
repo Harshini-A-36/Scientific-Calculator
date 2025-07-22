@@ -1,0 +1,129 @@
+:root {
+  --bg-color: #f0f4f8;
+  --box-color: #ffffff;
+  --text-color: #222;
+  --btn-bg: #e0e7ff;
+  --btn-color: #333;
+}
+
+body.dark {
+  --bg-color: #1e1e2f;
+  --box-color: #2a2a40;
+  --text-color: #fff;
+  --btn-bg: #4f4f7a;
+  --btn-color: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#theme-toggle {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  cursor: pointer;
+}
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.calc-wrapper {
+  flex: 1 1 300px;
+  background: var(--box-color);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+input#display {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 2px solid var(--btn-bg);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.buttons button:hover {
+  transform: scale(1.05);
+}
+
+.history {
+  flex: 1 1 200px;
+  background: var(--box-color);
+  border-radius: 15px;
+  padding: 15px;
+  overflow-y: auto;
+  height: fit-content;
+}
+
+.history h2 {
+  margin-bottom: 10px;
+}
+
+#history-list {
+  list-style: none;
+}
+
+#history-list li {
+  padding: 5px 0;
+  border-bottom: 1px dashed #aaa;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-box {
+    flex-direction: column;
+  }
+}
+
