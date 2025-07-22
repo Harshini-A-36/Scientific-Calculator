@@ -50,10 +50,13 @@ To run SmartCalc locally:
 ```
 
 
-🧑‍💻 Author
-Harshini A
-📧 aharshini022@gmail.com
-🔗 GitHub Profile
+## 🧑‍💻 Author
+
+**Harshini A**
+
+📧 [aharshini022@gmail.com]()
+
+🔗 [GitHub Profile](https://github.com/Harshini-A-36)
 
 ## 🌐 Live Demo (Optional)
 
