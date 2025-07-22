@@ -49,6 +49,7 @@ To run SmartCalc locally:
 2. Open index.html in your preferred browser
 ```
 
+---
 
 ## 🧑‍💻 Author
 
@@ -57,6 +58,8 @@ To run SmartCalc locally:
 📧 [aharshini022@gmail.com]()
 
 🔗 [GitHub Profile](https://github.com/Harshini-A-36)
+
+---
 
 ## 🌐 Live Demo (Optional)
 
