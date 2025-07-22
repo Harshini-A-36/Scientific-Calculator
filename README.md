@@ -44,20 +44,17 @@
 
 To run SmartCalc locally:
 
+```bash
 1. Clone or download the repository
 2. Open index.html in your preferred browser
+```
 
 
-<pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><hr data-block="0"/></pre>
-
-
----
 🧑‍💻 Author
+Harshini A
+📧 aharshini022@gmail.com
+🔗 GitHub Profile
 
-**Harshini A**  
-📧 [aharshini022@gmail.com](mailto:aharshini022@gmail.com)  
-🔗 [GitHub Profile](https://github.com/Harshini-A-36)
----
 ## 🌐 Live Demo (Optional)
 
 🔗 [Click here to try it out](https://harshini-a-36.github.io/Scientific-Calculator/) *(Enable GitHub Pages to activate this)*
